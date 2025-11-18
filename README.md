@@ -9,7 +9,9 @@ The project uses the employees sample database, cloned from:
 https://github.com/datacharmer/test_db
 
 After cloning, import it into MySQL:
-``` mysql -u root -p < employees.sql ```
+``` 
+mysql -u root -p < employees.sql 
+```
 
 
 How It Works
