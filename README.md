@@ -33,7 +33,7 @@ Configure database credentials in db_connect.py.
 
 Run:
 ```
-python stream.py
+python stream_reader.py
 ```
 
 You will see progress printed as rows are processed.
