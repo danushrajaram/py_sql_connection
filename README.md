@@ -9,9 +9,8 @@ The project uses the employees sample database, cloned from:
 https://github.com/datacharmer/test_db
 
 After cloning, import it into MySQL:
-'''
-mysql -u root -p < employees.sql
-'''
+``` mysql -u root -p < employees.sql ```
+
 
 How It Works
 
@@ -24,16 +23,16 @@ This prevents memory overload even with millions of records.
 Run the Script
 
 Install dependencies:
-'''
+```
 pip install mysql-connector-python
-'''
+```
 
 Configure database credentials in db_connect.py.
 
 Run:
-'''
+```
 python stream.py
-'''
+```
 
 You will see progress printed as rows are processed.
 
